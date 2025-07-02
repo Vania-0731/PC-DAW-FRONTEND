@@ -3,7 +3,7 @@ import axios from 'axios';
 import useAuthStore from './store/authStore';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api/v1', // Base URL para todas tus APIs
+  baseURL: 'https://pc-daw-backend-app.onrender.com/api/v1', // Base URL para todas tus APIs
 });
 
 // Interceptor de solicitud para añadir el token JWT

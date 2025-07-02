@@ -1,21 +1,20 @@
 // src/services/authService.js
 import axios from 'axios';
-
-const API_AUTH_URL = 'http://localhost:8080/api/v1/auth/';
+import api from '../api'; 
 
 const login = (username, password) => {
-  return axios.post(API_AUTH_URL + 'login', {
+  return api.post('/auth/login', {
     username,
     password,
   });
 };
 
 const register = (username, email, password, roles) => {
-  return axios.post(API_AUTH_URL + 'register', {
+  return api.post('/auth/register', {
     username,
     email,
     password,
-    roles, // Esto es un array de strings, por ejemplo: ["admin"] o ["user"]
+    roles,
   });
 };
 

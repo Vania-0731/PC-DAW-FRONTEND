@@ -1,7 +1,7 @@
 // src/services/userService.js
 import api from '../api'; // Usamos la instancia de axios configurada con el interceptor
 
-// Cambiamos la URL base a una ruta relativa, ya que 'api' ya tiene 'http://localhost:8080/api/v1'
+
 const API_USERS_URL = '/users'; 
 
 const getAllUsers = () => {
