@@ -117,7 +117,7 @@ const Home = () => {
         borderTop: '1px solid rgba(255, 255, 255, 0.1)'
       }}>
         <div className="container">
-          <p className="mb-0">&copy; 2025 Tu Empresa | Todos los derechos reservados ❤️</p>
+          <p className="mb-0">&copy; 2025 Sonaly Sifuentes Carranza | Desarrollo de APlicaciones Web ❤️</p>
         </div>
       </footer>
 
