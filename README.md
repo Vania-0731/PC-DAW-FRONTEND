@@ -1,5 +1,7 @@
 # PC-DAW-FRONTEND 🖥️
 
+**Parte del Proyecto Principal:** [https://github.com/Vania-0731/PC4-DAW](https://github.com/Vania-0731/PC4-DAW)
+
 Bienvenida al frontend de la aplicación PC-DAW (Programación Concurrente y Distribuida de Aplicaciones Web). Este proyecto es la interfaz de usuario construida con React, que interactúa con la API RESTful del backend para gestionar productos, categorías y autenticación de usuarios.
 
 ---
